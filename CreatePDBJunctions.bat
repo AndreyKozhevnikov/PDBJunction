@@ -13,4 +13,8 @@ chdir "%srcPath%\DevExpress.Mvvm\"
 rename DevExpress.Mvvm.Wpf DevExpress.Mvvm
 chdir "%srcPath%\DevExpress.Data\"
 mklink /j DevExpress.Data "%srcPath%\DevExpress.Data\"
+chdir "C:\Projects\%dxBuild%\BuildLabel\Temp\NetStudio.v%dxBuild%.2005"
+mklink /j XAF "%srcPath%\DevExpress.ExpressApp"
+chdir "%srcPath%\DevExpress.ExpressApp\"
+mklink /j DevExpress.ExpressApp.Modules "%srcPath%\DevExpress.ExpressApp.Modules"
 pause
