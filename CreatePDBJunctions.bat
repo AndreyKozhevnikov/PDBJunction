@@ -18,6 +18,7 @@ chdir "C:\Projects\%dxBuild%\BuildLabel\Temp\NetStudio.v%dxBuild%.2005"
 mklink /j XAF "%srcPath%\DevExpress.ExpressApp"
 chdir "%srcPath%\DevExpress.ExpressApp\"
 mklink /j DevExpress.ExpressApp.Modules "%srcPath%\DevExpress.ExpressApp.Modules"
+mklink /j DevExpress.Persistent "%srcPath%\DevExpress.Persistent"
 
 chdir "%srcPath%"
 mkdir DevExpress.Dashboard.Web
@@ -33,5 +34,7 @@ chdir "%srcPath%"
 mkdir DevExpress.Dashboard.Core
 chdir "%srcPath%\DevExpress.Dashboard.Core"
 mklink /j DevExpress.Dashboard.Core "%srcPath%\DevExpress.Dashboard\DevExpress.Dashboard.Core"
+
+
 
 pause
