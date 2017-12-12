@@ -36,6 +36,8 @@ mkdir DevExpress.Dashboard.Core
 chdir "%srcPath%\DevExpress.Dashboard.Core"
 mklink /j DevExpress.Dashboard.Core "%srcPath%\DevExpress.Dashboard\DevExpress.Dashboard.Core"
 
+chdir "%srcPath%"\DevExpress.Utils
+mklink /j DevExpress.Utils "%srcPath%\DevExpress.Utils"
 
 
 pause
