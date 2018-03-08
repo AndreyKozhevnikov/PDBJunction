@@ -39,5 +39,7 @@ mklink /j DevExpress.Dashboard.Core "%srcPath%\DevExpress.Dashboard\DevExpress.D
 chdir "%srcPath%"\DevExpress.Utils
 mklink /j DevExpress.Utils "%srcPath%\DevExpress.Utils"
 
+chdir "C:\Projects\%dxBuild%\BuildLabel\"
+mklink /j tmp "C:\Projects\%dxBuild%\BuildLabel\Temp"
 
 pause
