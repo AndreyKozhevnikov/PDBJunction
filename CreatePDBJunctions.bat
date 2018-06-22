@@ -42,10 +42,10 @@ mklink /j DevExpress.Utils "%srcPath%\DevExpress.Utils"
 chdir "C:\Projects\%dxBuild%\BuildLabel\"
 mklink /j tmp "C:\Projects\%dxBuild%\BuildLabel\Temp"
 
-chdir "C:\Projects\%dxBuild%\BuildLabel\Temp\NetStudio.v17.2.2005\XAF"
+chdir "C:\Projects\%dxBuild%\BuildLabel\Temp\NetStudio.v%dxBuild%.2005\XAF"
 mklink /j DevExpress.ExpressApp.Modules "%srcPath%\DevExpress.ExpressApp.Modules\"
 
-chdir "c:\Projects\%dxBuild%\BuildLabel\Temp\NetStudio.v18.1.2005\Win\DevExpress.XtraPivotGrid"
+chdir "c:\Projects\%dxBuild%\BuildLabel\Temp\NetStudio.v%dxBuild%.2005\Win\DevExpress.XtraPivotGrid"
 mklink /j DevExpress.XtraPivotGrid.Core "%srcPath%\DevExpress.XtraPivotGrid\DevExpress.PivotGrid.Core\"
 
 
